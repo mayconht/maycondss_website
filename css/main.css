@@ -1,0 +1,38 @@
+html, body, header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background-image: url("../images/BG_image.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    
+}
+
+.navbar-nav {
+position: relative;
+  flex-direction: column;
+
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+.subject{
+  padding-top: 100px
+}
+
+.hr{
+  color: white;
+  border-color: white;
+  background-color: white;
+}
